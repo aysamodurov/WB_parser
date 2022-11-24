@@ -1,0 +1,29 @@
+ {
+      "__sort": 75897,
+      "ksort": 55000,
+      "ksale": 14,
+      "time1": 8,
+      "time2": 49,
+      "dist": 483,
+      "id": 68988778, артикул
+      "root": 52353059,
+      "kindId": 1,
+      "subjectId": 11,
+      "subjectParentId": 1,
+      "name": "Брюки джоггеры мужские спортивные штаны карго осень",
+      "brand": "Barouz Jeans",
+      "brandId": 1157332,
+      "siteBrandId": 1167332,
+      "supplierId": 853418,
+      "sale": 81, скидка
+      "priceU": 802600, цена до скидки в коп
+      "salePriceU": 152400, цена после скидки в коп
+      "averagePrice": 132700, минимальная цена
+      "benefit": -14,
+      "pics": 10, количество фото
+      "rating": 5, рейтинг
+      "feedbacks": 4337, количество отзывов
+      "panelPromoId": 146593,
+      "promoTextCat": "ЧЁРНАЯ ПЯТНИЦА",
+      "diffPrice": false
+   },
