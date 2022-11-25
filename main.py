@@ -12,6 +12,7 @@ def test_load_items():
     with open('res.json', 'w', encoding='utf-8') as jsonfile:
         json.dump(items, jsonfile, indent=3, ensure_ascii=False)
 
+
 def test_load_from_file():
     print('Начало работы с товарами')
     items = []
@@ -19,7 +20,10 @@ def test_load_from_file():
         items = json.load(jsonfile)
     if items:
         print(len(items))
-        print(items[0])
+        items.sort(key=lambda x: x['feedbacks'])
+        items_name = list(map(lambda x: x['name'], items))
+        print(items_name[:10])
+
 
 if __name__ == '__main__':
     test_load_from_file()
